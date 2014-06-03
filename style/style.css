@@ -1,0 +1,122 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    width: 100%;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 13px;
+}
+
+body
+{
+	/* background-image: url('../images/body-background-cornwall.jpg'); */
+    background-size: 100% 100%;
+    background-attachment:fixed;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
+.button
+{
+	border: 1px solid #D1D1D1;
+	background-color: #F5F5F5;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 12px;
+	cursor: pointer;
+	z-index: 5;
+}
+
+.button:hover, .button:active
+{
+    background-color: #ececec;
+}
+
+.fb-btn-img
+{
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    right: 10px;
+}
+
+.splitter {
+    width: 100%;
+    height: 1px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 20px 0px;
+}
+
+#container
+{
+    margin-top: 20px;
+    width: 90%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#header
+{
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    height: 30px;
+    line-height: 30px;
+}
+
+#content
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#map {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    background: url(../images/map.jpg) no-repeat;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.recent-location
+{
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#footer
+{
+    font-size: 10px;
+}
+
+.error
+{
+    width: 100%;
+    height: 40px;
+    background-color: #FFBDBD;
+    border: 1px solid #D43F49;
+    text-align: center;
+    line-height: 40px;
+    color: #D43F49;
+    margin-bottom: 20px;
+    font-size: 12px;
+    margin: auto;
+}
